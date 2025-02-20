@@ -237,6 +237,15 @@ class Widget_Writing_Effect_Headline extends Widget_Base {
 		wp_enqueue_script( 'jquery-typed' );
 		wp_enqueue_script( 'a13ree-frontend' );
 
+        $writing_lines = preg_split('/\r\n|[\r\n]/', $settings['written_text']);
+
+        foreach ($writing_lines as $line) {
+            $new_line = esc_html(wp_strip_all_tags( htmlspecialchars_decode($line) ));
+            if($new_line != ''){
+                $safe_writing_lines[] = $new_line;
+            }
+        }
+
 		?>
 		<<?php echo $tag; ?> <?php echo $this->get_render_attribute_string( 'headline' ); ?>>
 			<?php if ( ! empty( $settings['before_text'] ) ) : ?>
@@ -244,7 +253,7 @@ class Widget_Writing_Effect_Headline extends Widget_Base {
 			<?php endif; ?>
 
 			<?php if ( ! empty( $settings['written_text'] ) ) : ?>
-				<span class="written-lines elementor-screen-only"><?php echo $settings['written_text']; ?></span>
+            <span class="written-lines elementor-screen-only"><?php echo implode("\n", $safe_writing_lines, ); ?></span>
 			<?php endif; ?>
 
 			<?php if ( ! empty( $settings['after_text'] ) ) : ?>

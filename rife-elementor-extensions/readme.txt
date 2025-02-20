@@ -55,6 +55,13 @@ It can be found under name "Writing Effect Headline" in "Basic" Widgets in Eleme
 == Changelog ==
 ----------------
 
+= 1.2.6(20.02.2025) =
+
+Fixed:
+- XSS vulnerability removed
+
+----------------
+
 = 1.2.5(14.09.2024) =
 
 Fixed:
