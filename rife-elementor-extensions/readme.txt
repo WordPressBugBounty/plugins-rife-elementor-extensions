@@ -55,6 +55,13 @@ It can be found under name "Writing Effect Headline" in "Basic" Widgets in Eleme
 == Changelog ==
 ----------------
 
+= 1.2.7(21.02.2025) =
+
+Fixed:
+- typo in php
+
+----------------
+
 = 1.2.6(20.02.2025) =
 
 Fixed:

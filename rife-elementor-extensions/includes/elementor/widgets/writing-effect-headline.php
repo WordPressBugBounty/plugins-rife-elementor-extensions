@@ -253,7 +253,7 @@ class Widget_Writing_Effect_Headline extends Widget_Base {
 			<?php endif; ?>
 
 			<?php if ( ! empty( $settings['written_text'] ) ) : ?>
-            <span class="written-lines elementor-screen-only"><?php echo implode("\n", $safe_writing_lines, ); ?></span>
+            <span class="written-lines elementor-screen-only"><?php echo implode("\n", $safe_writing_lines ); ?></span>
 			<?php endif; ?>
 
 			<?php if ( ! empty( $settings['after_text'] ) ) : ?>
