@@ -1,5 +1,12 @@
 ----------------
 
+= 1.2.8(29.09.2025) =
+
+Changed:
+- Plugin renamed to Rife Extensions & Templates for Elementor
+
+----------------
+
 = 1.2.7(21.02.2025) =
 
 Fixed:

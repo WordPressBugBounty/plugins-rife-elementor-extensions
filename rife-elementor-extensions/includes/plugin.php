@@ -175,7 +175,7 @@ final class Plugin {
 		     wpautop(
 			     sprintf(
 			     /* translators: %s: Required Elementor version */
-				     esc_html__( 'Rife Elementor Extensions plugin requires Elementor version %s or greater.', 'rife-elementor-extensions' ),
+				     esc_html__( 'Rife Extensions &amp; Templates for Elementor plugin requires Elementor version %s or greater.', 'rife-elementor-extensions' ),
 				     self::MINIMUM_ELEMENTOR_VERSION
 			     )
 		     ).'</div>';

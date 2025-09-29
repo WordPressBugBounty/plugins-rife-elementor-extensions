@@ -215,7 +215,7 @@ class Importer {
 		<p><img src="<?php echo A13REE_ASSETS_URL .'images/instructions/elementor-insert-templates.png' ?>" alt="<?php esc_html_e( 'Import templates in Elementor', 'rife-elementor-extensions'); ?>" /></p>
 
 		<h3><?php esc_html_e( 'Elementor Widgets', 'rife-elementor-extensions'); ?></h3>
-		<p><?php echo nl2br( esc_html__( 'With Rife Elementor Extensions, you also get access to cool widgets that you can use in Elementor. See details below.', 'rife-elementor-extensions') ); ?></p>
+		<p><?php echo nl2br( esc_html__( 'With Rife Extensions &amp; Templates for Elementor, you also get access to cool widgets that you can use in Elementor. See details below.', 'rife-elementor-extensions') ); ?></p>
 		<h4><?php esc_html_e( 'Writing Effect', 'rife-elementor-extensions'); ?></h4>
 		<p><?php echo nl2br( esc_html__( 'Writing effect offers you to create titles that are half static, and half written as user scrolls to it. You can achieve with it very interesting effects.', 'rife-elementor-extensions') ); ?></p>
 		<p><?php echo nl2br( esc_html__( 'It can be found under name "Writing Effect Headline" in "Basic" Widgets.
@@ -272,7 +272,7 @@ class Importer {
 	function fail_elementor() {
 		echo '<div class="error">'.
 		     wpautop(
-			     esc_html__( 'Rife Elementor Extensions plugin requires Elementor plugin to be active. Without it import of templates will not work.', 'rife-elementor-extensions' )
+			     esc_html__( 'Rife Extensions &amp; Templates for Elementor plugin requires Elementor plugin to be active. Without it import of templates will not work.', 'rife-elementor-extensions' )
 		     ).'</div>';
 	}
 

@@ -1,4 +1,4 @@
-=== Rife Elementor Extensions &amp; Templates ===
+=== Rife Extensions &amp; Templates for Elementor ===
 Contributors: apollo13themes, air-1
 Tags: rife, elementor, elementor templates, drag-and-drop, elementor addons, writing effect, elementor widgets, landing page
 Requires at least: 4.7
@@ -48,11 +48,18 @@ It can be found under name "Writing Effect Headline" in "Basic" Widgets in Eleme
 
 1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
-3. Use the **Elementor -> Rife Elementor Extensions &amp; Template** screen to import templates
+3. Use the **Elementor -> Rife Extensions &amp; Templates for Elementor** screen to import templates
 
 
 
 == Changelog ==
+----------------
+
+= 1.2.8(29.09.2025) =
+
+Changed:
+- Plugin renamed to Rife Extensions & Templates for Elementor
+
 ----------------
 
 = 1.2.7(21.02.2025) =

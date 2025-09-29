@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:			Rife Elementor Extensions &amp; Templates
+ * Plugin Name:			Rife Extensions &amp; Templates for Elementor
  * Plugin URI:			https://apollo13themes.com/rife-elementor-extensions
  * Description:			Brings new widgets to be used in Elementor and allows you to import beautiful full page templates for Elementor page builder designed by Apollo13Themes
  * Author:				Apollo13Themes
@@ -9,7 +9,7 @@
  * License URI:         https://www.gnu.org/licenses/gpl-2.0.html
  * Requires at least:	4.7
  * Tested up to:		6.7
- * Version:				1.2.7
+ * Version:				1.2.8
  * Text Domain:         rife-elementor-extensions
  * Elementor tested up to: 3.17
  *
@@ -24,7 +24,7 @@ if(defined('A13REE_PATH')){
 //plugin constants
 define( 'A13REE_PATH', plugin_dir_path( __FILE__ ) );
 define( 'A13REE_PLUGIN_BASE', plugin_basename( __FILE__ ) );
-define( 'A13REE_PLUGIN_NAME', 'Rife Elementor Extensions &amp; Templates' );
+define( 'A13REE_PLUGIN_NAME', 'Rife Extensions &amp; Templates for Elementor' );
 
 define( 'A13REE_PLUGIN_URL', plugins_url( '/', __FILE__ ) );
 
@@ -75,7 +75,7 @@ function a13ree_fail_php_version() {
 	     wpautop(
 			sprintf(
 				/* translators: %s: PHP version */
-				esc_html__( 'Rife Elementor Extensions plugin requires PHP version %s+, plugin is currently NOT RUNNING.', 'rife-elementor-extensions' ),
+				esc_html__( 'Rife Extensions &amp; Templates for Elementor plugin requires PHP version %s+, plugin is currently NOT RUNNING.', 'rife-elementor-extensions' ),
 				'5.4'
 			)
 	     ).'</div>';
@@ -95,7 +95,7 @@ function a13ree_fail_wp_version() {
 	     wpautop(
 			sprintf(
 			/* translators: %s: WordPress version */
-				esc_html__( 'Rife Elementor Extensions plugin requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING.', 'rife-elementor-extensions' ),
+				esc_html__( 'Rife Extensions &amp; Templates for Elementor plugin requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING.', 'rife-elementor-extensions' ),
 				'4.7'
 			)
 	     ).'</div>';

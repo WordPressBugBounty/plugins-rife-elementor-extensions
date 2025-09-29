@@ -110,7 +110,7 @@ class Admin {
 		$is_plugin_screen = ( $current_screen && false !== strpos( $current_screen->id, $this->plugin_page ) );
 
 		if ( $is_plugin_screen ) {
-			$footer_text = esc_html__( 'Thanks for using Rife Elementor Extensions &amp; Templates plugin!', 'rife-elementor-extensions' ).
+			$footer_text = esc_html__( 'Thanks for using Rife Extensions &amp; Templates for Elementor plugin!', 'rife-elementor-extensions' ).
 			               ' <a href="https://apollo13themes.com/">'.esc_html__( 'Apollo13Themes Team  &#10084;', 'rife-elementor-extensions' ).'</a>';
 		}
 
